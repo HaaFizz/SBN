@@ -17,18 +17,17 @@ from time import sleep
 from googletrans import Translator
 import youtube_dl
 #===============================#
-sepri = LINE('EGwAAHyiqkF6TqeDC1V0.dJDcqR7GElvv2z8FUzJX8a.02kYz/KISGNYidIARy8G+OIwgOoXe+sMDMw6aNRQ8yI=')
+sepri = LINE('ExQ6YuqVEg3zjMWlbvvb.Sp/s6yipA4kI8lGDz1Jc/W.0+6RGQEyRULTA9pbpJxcbf5IPIXqp5EKihUS7/I/J0w=')
 sepri.log("Auth Token : " + str(sepri.authToken))
-print ("=== LOGIN SUCCES ===\n =[Sepri bot siap digunakan]=\n =TEAM FUNKZHER BOT PROTECTION=")
 #===============================#
 oepoll = OEPoll(sepri)
 call = (sepri)
 mid = sepri.getProfile().mid
 Bots = [mid]
-creator = ["u0e374242bee078b555d99f1fb998f1f0"]
-owner = ["u0e374242bee078b555d99f1fb998f1f0"]
-admin = ["u0e374242bee078b555d99f1fb998f1f0"]
-staff = ["u0e374242bee078b555d99f1fb998f1f0"]
+creator = ["uab3201909b69ac49a197bbd603e8a889"]
+owner = ["uab3201909b69ac49a197bbd603e8a889"]
+admin = ["uab3201909b69ac49a197bbd603e8a889"]
+staff = ["uab3201909b69ac49a197bbd603e8a889"]
 #===============================#
 myProfile = {
 	"displayName": "",
